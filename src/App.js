@@ -4,7 +4,8 @@ const initialFriends = [
   {
     id: 118836,
     name: "Solomon",
-    image: "https://i.pravatar.cc/48?u=118836",
+    image: "https://i.pravatar.cc/48?u=499476",
+
     balance: -7,
   },
   {
@@ -16,7 +17,7 @@ const initialFriends = [
   {
     id: 499476,
     name: "Bezawit",
-    image: "https://i.pravatar.cc/48?u=499476",
+    image: "https://i.pravatar.cc/48?u=118836",
     balance: 0,
   },
 ];
@@ -50,7 +51,7 @@ export default function App() {
           : friend
       )
     );
-    setSelectedFriend(null); 
+    setSelectedFriend(null);
   }
   return (
     <div className="app">
